@@ -51,7 +51,7 @@ li{
 	list-style: none;
 }
 .shoukaiTextli{
-	padding-left: 20px;
+	/*padding-left: 20px;*/
 	margin-bottom: 5%;
 	font-size: 20px;
 }
@@ -259,7 +259,10 @@ a{
 		margin: 0;
 	}
 	li.shoukaiTextli{
-		padding-left: 25%;
+		padding-left: 35%;
+	}
+	#d2dRPGText{
+		padding-left: 35%;
 	}
 	.gameshoukaih3{
 		padding-left: 28%;
