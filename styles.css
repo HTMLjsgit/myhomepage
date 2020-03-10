@@ -1,0 +1,310 @@
+body{
+	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+	margin: 0 auto;
+	background-color: black;
+}
+h1{
+	margin: 0;
+}
+.divBottom{
+  height: 2px;
+  background: white;
+  top: 50px;
+  left: 0;
+  animation: anim 1s ease-out 0.2s forwards;
+  position: absolute;
+  top: 45px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #fff;
+}
+.URLTextShoukai{
+	color: #fff;
+	margin-bottom: 0;
+	margin-top: 1.2%;
+	margin-left: 1%;
+}
+
+.container{
+	color: black;
+}
+.indexhtmlLink{
+	text-decoration: none;
+	width: 200px;
+}
+.atagBox{
+	width: 370px;
+	padding-left: 20px;
+}
+
+
+#tyuugakuseirailsText{
+	color: #fff;
+}
+
+.shoukaiText{
+	padding-left: 50px;
+	font-size: 25px;
+}
+li{
+	list-style: none;
+}
+.shoukaiTextli{
+	padding-left: 20px;
+	margin-bottom: 5%;
+	font-size: 20px;
+}
+.imageBox{
+	opacity: 0.6;
+	margin: 0;
+	filter: brightness(95%);
+	display: flex;
+	width: 100%;
+	padding-top: 5%;
+}
+
+#imagepc2{
+	filter: brightness(100%);
+	background-size: cover;
+	height: 100%;
+	width: 20%;
+}
+#imagepc1{
+	background-size: cover;
+	height: 100%;
+	width: 20%;
+	padding-left: 15%;
+}
+#imagepc3{
+	background-size: cover;
+	height: 100%;
+	width: 20%;
+}
+.setumeiImage{
+	background-size: cover;
+	width: 90%;
+	padding-left: 5%;
+	filter: brightness(80%);
+	transition: 0.3s;
+}
+.setumeiImage:hover{
+	filter: brightness(95%);
+}
+.tolltopImage{
+	color: #fff;
+	margin: 0 auto;
+	max-width: 1000px;
+}
+
+.shoukaiTextp{
+	margin-bottom: 10%;
+	margin-top: 5%;
+	display: none;
+}
+.setumeiBox{
+	margin-bottom: 5%;
+	padding: 0;
+	border-bottom: 1px solid #fff;
+	width: 90%;
+}
+.zikoshoukaiBox{
+	border-bottom: 1px solid #fff;
+}
+.zikoshoukai{
+	padding-left: 55px;
+}
+#programming_img{
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	padding-left: 35%;
+}
+#twitterAtag{
+	color: #f8f8ff;
+	text-decoration: none;
+}
+#twitterAtag:hover{
+	text-decoration: underline;
+}
+#twitterIcon{
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	margin-bottom: 3%;
+}
+#twitterText{
+
+}
+.imgTwitterBox{
+	display: flex;
+}
+
+.kuroonrailsClass{
+	color: #fff;
+	text-decoration: none;
+}
+.kuroonrailsClass:hover{
+	text-decoration: underline;
+}
+.ikkiPadding{
+	padding-left: 80px;
+	padding-bottom: 20px;
+}
+#QiitaIcon{
+	width: 60px;
+	height: 30px;
+}
+a{
+	  word-break: break-all;
+}
+@keyframes anim {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 480px){
+	body{
+		width: 100%;
+		padding: 0;
+		max-width: 100%;
+	}
+	.atagBox{
+		padding-left: 3px;
+		max-width: 100%;
+	}
+	.imageBox{
+		max-width: 100%;
+	}
+	#tyuugakuseirailsText{
+		max-width: 100%;
+		font-size: 20px;
+	}
+	.zikoshoukai{
+		max-width: 100%;
+		padding-left: 5px;
+	}
+	.ikkiPadding{
+		max-width: 100%;
+		padding-left: 0px;
+
+	}
+	#programming_img{
+		max-width: 100%;
+		padding-left: 0;
+	}
+	#imagepc1{
+		max-width: 100%;
+		padding: 0;
+	}
+	ul{
+		max-width: 100%;
+		padding: 0;
+	}
+	.setumeiImage{
+		max-width: 100%;
+		padding :0;
+	}
+	.shoukaiTextp{
+		max-width: 100%;
+		/*margin-left: -100px;*/
+		font-size: 18px;
+	}
+	.setumeiBox{
+		max-width: 100%;
+		margin: 0;
+		width: 100%;
+	}
+	.tolltopImage{
+/*		color: #fff;
+		margin: 0 auto;
+		max-width: 480px;
+		margin: 0;*/
+		max-width: 100%;
+	}
+	.imgTwitterBox{
+		width: 100%;
+		max-width: 100%;
+		display: block;
+		font-size: 16px;
+	}
+	.shoukaiText{
+		max-width: 100%;
+		padding-left: 25% ;
+	}
+	.indexhtmlLink{
+		text-decoration: none;
+		max-width: 100%;
+		width: 100%;
+	}
+	.atagBox{
+		width: 100%;
+		max-width: 100%;
+		padding-left: 0px;
+	}
+	.setumeiImage{
+		max-width: 100%;
+		width: 100%;
+		background-size: contain;
+	}
+	#shoukaiTextGame{
+		padding-left: 35%;
+	}
+	.URLTextShoukai{
+		padding: 0;
+		max-width: 100%;
+		margin: 0;
+	}
+	li.shoukaiTextli{
+		padding-left: 25%;
+	}
+	.gameshoukaih3{
+		padding-left: 28%;
+	}
+	.divBottom{
+		width: 100px;
+		max-width: 100%;
+	}
+
+	p{
+		max-width: 100%;
+		width: 100%;
+		font-size: 20px;
+	}
+	.atagBox{
+		max-width: 100%;
+		padding: 0;
+	}
+	.tolltopImage{
+		max-width: 100%;
+	}
+	body{
+		margin: 0 0 0 0 ;
+		max-width: 100%;
+
+	}
+	.sumahoImageComputerBox{
+		display: flex;
+		justify-content: center;
+	}
+	h4{
+		max-width: 100%;
+		margin: 0;
+	}
+	h1{
+		max-width: 100%;
+		margin: 0;
+	}
+	@keyframes anim {
+	  0% {
+	    width: 0;
+	  }
+	  100% {
+	    width: 100%;
+		max-width: 100%;
+	  }
+	}
+}
